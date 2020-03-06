@@ -8,7 +8,7 @@
               <ul class=" navbar-right">
                 <li class="nav-item dropdown open" style="padding-left: 15px;">
                   <a href="javascript:;" class="user-profile dropdown-toggle" aria-haspopup="true" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
-                    <img src="./vistas/images/img.jpg" alt="">Danilo Luca
+                  <?php echo '<img src= "'.$_SESSION['foto'].'" alt="..." > "'.$_SESSION['nombre'].'"'?>
                   </a>
                   <div class="dropdown-menu dropdown-usermenu pull-right" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item"  href="javascript:;"> Profile</a>
@@ -31,7 +31,7 @@
                       <a class="dropdown-item">
                         <span class="image"><img src="./vistas/images/img.jpg" alt="Profile Image" /></span>
                         <span>
-                          <span>Danilo Luca</span>
+                          <span>Johan</span>
                           <span class="time">3 mins ago</span>
                         </span>
                         <span class="message">

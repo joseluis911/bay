@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" src="" type="">
 
-    <title>Bay Moorings | Inventory </title>
+    <title>Digital Orca | CMS </title>
 
     <!-- Bootstrap -->
     <link href="./vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +28,7 @@
     <link href="./vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
     <!-- Custom Theme Style -->
-    <link href="./build/css/custom.min.css" rel="stylesheet">
+    <link href="./build/css/custom.css" rel="stylesheet">
   </head>
 
   <body class="nav-md login">
@@ -57,7 +57,8 @@
      if(isset($_GET["ruta"])){
 
         if ($_GET["ruta"] == "inicio" ||
-            $_GET["ruta"] == "products" ||
+            $_GET["ruta"] == "hours"  ||
+            $_GET["ruta"] == "profile"  ||
              $_GET["ruta"] == "salir" ) {
 
 
@@ -80,6 +81,10 @@
     <script src="./vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
     <script src="./vendors/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="./vistas/js/sweetalert2/sweetalert2.all.js"></script>
+     <!-- CustomJS -->
+    <script src="./vistas/js/hours.js"></script>
     <!-- FastClick -->
     <script src="./vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
