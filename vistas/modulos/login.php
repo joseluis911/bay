@@ -4,7 +4,7 @@
         <div class="animate form login_form">
           <section class="login_content">
             <form method="post">
-              <h1>Login Form</h1>
+              <h1>CMS</h1>
               <div>
                 <input type="email" class="form-control" placeholder="Email" required="" name="ingEmail" />
               </div>
@@ -27,7 +27,7 @@
                 <br />
 
                 <div>
-                  <h1><i class="fa fa-ship"></i> Bay Moorings | Inventory</h1>
+                  <h1><i class="fa fa-ship"></i> Digital Orca | CMS</h1>
                   <p>©2020 All Rights Reserved Jose Luis Santiago Marquez! . Privacy and Terms</p>
                 </div>
               </div>
